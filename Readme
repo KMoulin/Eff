@@ -1,7 +1,7 @@
 
 In this repository you will find code to compute Eff by combining cDTI and DENSE datasets.
 
-The function interp_DTI_DENSE_KM take in entry a folder which should include your cDTI and DENSE datasets processed as follow:
+The function interp_DTI_DENSE_KM take in entry a folder directory which should include your cDTI and DENSE datasets processed as follow:
 
 - A folder named 'DENSE' which containt a .mat file for each of processed DENSE slices using the DENSEAnalysistool framework (https://github.com/denseanalysis/denseanalysis)
  I will soon include other source of displacements and format such as .DNS or .txt files
