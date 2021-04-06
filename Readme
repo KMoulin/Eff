@@ -1,8 +1,15 @@
 
 In this repository you will find code to compute Eff by combining cDTI and DENSE datasets.
 
-The function inter
+The function interp_DTI_DENSE_KM take in entry a folder which should include your cDTI and DENSE datasets processed as follow:
 
+- A folder named 'DENSE' which containt a .mat file for each of processed DENSE slices using the DENSEAnalysistool framework (https://github.com/denseanalysis/denseanalysis)
+ I will soon include other source of displacements and format such as .DNS or .txt files
+
+- A folder named 'DTI' which containt .mat file of your cDTI slice processed using the DiffusionRecon framework (https://github.com/KMoulin/DiffusionRecon)
+This framework works only for Siemens cDTI for now since DENSE is only available for Siemens for now. I will soon include other vendors.
+
+The result will be saved in a .mat format in created 'Result' folder.
 
 
 
